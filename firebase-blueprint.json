@@ -1,0 +1,23 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Profiles",
+      "description": "User profile with email, verification state, and preferences",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "emailVerified": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" }
+      },
+      "required": ["email", "emailVerified", "createdAt"]
+    }
+  },
+  "firestore": {
+    "users": {
+      "entity": "users",
+      "description": "User document store"
+    }
+  }
+}

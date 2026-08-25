@@ -1,0 +1,8 @@
+{
+  "name": "NewsHub",
+  "description": "A modern, responsive news platform featuring live headlines, News Near You (hyperlocal Indian State, District, and City news hierarchy with GPS detection), dedicated Finance & Stock Markets Hub (live indices, equity screener, bullion gold/silver, forex converter, crypto), dedicated Hyperlocal Weather & Climate Radar (live conditions, 5-day forecasts, AQI, barometrics), curiosity-based personalization, follow topics feed, interactive comments, notifications center, deep story timelines, multi-source bias comparison, and reading analytics.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
